@@ -58,7 +58,7 @@ def log_up():
     signup = Toplevel(root)
     signup.title("Qeydiyyat")
     signup.geometry('400x250+300+200')
-    # signup.resizable(False, False)
+    signup.resizable(False, False)
     bgcolor = 'skyblue' 
     entrycolor = '#33FFFF'
     signup.config(bg=bgcolor)
